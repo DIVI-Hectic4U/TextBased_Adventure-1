@@ -16,3 +16,7 @@ MonoBehaviour:
     after midnight, fans creak without wind, and shadows linger longer than they
     should. The boys who stay here know\u2014something else lives within these walls.\""
   roomName: Hostel Entrance
+  exits:
+  - keyString: 
+    exitDescription: 
+    valueRoom: {fileID: 0}
