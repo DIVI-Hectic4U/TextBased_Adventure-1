@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 365115511}
   - component: {fileID: 365115510}
   - component: {fileID: 365115509}
+  - component: {fileID: 365115512}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -242,7 +243,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayText: {fileID: 2106181574}
+  inputActions:
+  - {fileID: 11400000, guid: 24b7c81d9fb949c45885668bb3bd7bd5, type: 2}
   _roomNavigation: {fileID: 0}
+  interactionDescriptionsInRoom: []
 --- !u!4 &365115511
 Transform:
   m_ObjectHideFlags: 0
@@ -258,6 +262,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &365115512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365115508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0792b2044298564892d465be92487ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputField: {fileID: 1359698767}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

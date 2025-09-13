@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1193b4eddc0b3a439815a5410a27f9a, type: 3}
   m_Name: Hostel Entrance
   m_EditorClassIdentifier: 
-  roomDescription: "\"Vivekananda Hostel never truly sleeps. Its corridors whisper
-    after midnight, fans creak without wind, and shadows linger longer than they
-    should. The boys who stay here know\u2014something else lives within these walls.\""
+  roomDescription: "You stand before Vivekananda Hostel, and it feels alive. The
+    corridors whisper beyond the gates, fans creak without wind, and shadows stretch
+    unnaturally in the windows above. Tonight, you\u2019ll learn why the boys here
+    say the hostel never truly sleeps."
   roomName: Hostel Entrance
   exits:
-  - keyString: 
-    exitDescription: 
-    valueRoom: {fileID: 0}
+  - keyString: wr
+    exitDescription: You see Warden's Room , Reading Room and Hallway
+    valueRoom: {fileID: 11400000, guid: 5700d169fdd2c2f4085d6d071333b0d1, type: 2}

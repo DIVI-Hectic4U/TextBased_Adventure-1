@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1193b4eddc0b3a439815a5410a27f9a, type: 3}
+  m_Name: Warden's Room
+  m_EditorClassIdentifier: 
+  roomDescription: "The first door you pass is Warden Shankar\u2019s room. His nameplate
+    hangs crooked, the faint smell of incense mixed with damp air seeping through
+    the half-open door. A single chair rocks slowly inside, as if he left just moments
+    ago.\""
+  roomName: Warden's Room
+  exits:
+  - keyString: ent
+    exitDescription: Get back to the main entrace of the Hostel Vivekananda.
+    valueRoom: {fileID: 11400000, guid: 437e9b8e5c56df34c9eb8747b993d086, type: 2}
